@@ -1,0 +1,7 @@
+CREATE TABLE customers(
+    id BIGSERIAL PRIMARY KEY NOT NULL,
+    user_name VARCHAR(70)NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    password VARCHAR(70) NOT NULL
+);
+
